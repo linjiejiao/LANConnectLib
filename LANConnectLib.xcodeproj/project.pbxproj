@@ -7,16 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0835C71D40AD6F00EF1C98 /* ByteBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0835C51D40AD6F00EF1C98 /* ByteBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0835C81D40AD6F00EF1C98 /* ByteBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0835C61D40AD6F00EF1C98 /* ByteBuffer.m */; };
+		8B0835CC1D40B73000EF1C98 /* Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0835CA1D40B73000EF1C98 /* Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0835CD1D40B73000EF1C98 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0835CB1D40B73000EF1C98 /* Config.m */; };
+		8B0835DE1D41BE3800EF1C98 /* TCPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0835D61D41BE3800EF1C98 /* TCPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0835DF1D41BE3800EF1C98 /* TCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0835D71D41BE3800EF1C98 /* TCPClient.m */; };
+		8B0835E01D41BE3800EF1C98 /* TCPDataDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0835D81D41BE3800EF1C98 /* TCPDataDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0835E11D41BE3800EF1C98 /* UDPReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0835DA1D41BE3800EF1C98 /* UDPReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0835E21D41BE3800EF1C98 /* UDPReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0835DB1D41BE3800EF1C98 /* UDPReceiver.m */; };
+		8B0835E31D41BE3800EF1C98 /* UDPSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0835DC1D41BE3800EF1C98 /* UDPSender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0835E41D41BE3800EF1C98 /* UDPSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0835DD1D41BE3800EF1C98 /* UDPSender.m */; };
+		8B0835EC1D41E08E00EF1C98 /* TCPSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0835E81D41E08E00EF1C98 /* TCPSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0835ED1D41E08E00EF1C98 /* TCPSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0835E91D41E08E00EF1C98 /* TCPSection.m */; };
+		8B0835EE1D41E08E00EF1C98 /* TCPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0835EA1D41E08E00EF1C98 /* TCPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0835EF1D41E08E00EF1C98 /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0835EB1D41E08E00EF1C98 /* TCPServer.m */; };
+		8B0835F21D41E50000EF1C98 /* TCPAcceptSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0835F01D41E50000EF1C98 /* TCPAcceptSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0835F31D41E50000EF1C98 /* TCPAcceptSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0835F11D41E50000EF1C98 /* TCPAcceptSection.m */; };
+		8B08360E1D4221E700EF1C98 /* SniffReq.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B08360A1D4221E700EF1C98 /* SniffReq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B08360F1D4221E700EF1C98 /* SniffReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B08360B1D4221E700EF1C98 /* SniffReq.m */; };
+		8B0836101D4221E700EF1C98 /* Terminal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B08360C1D4221E700EF1C98 /* Terminal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0836111D4221E700EF1C98 /* Terminal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B08360D1D4221E700EF1C98 /* Terminal.m */; };
+		8B0836141D42224000EF1C98 /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0836121D42224000EF1C98 /* Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0836911D43145F00EF1C98 /* SniffRes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B08368F1D43145F00EF1C98 /* SniffRes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0836921D43145F00EF1C98 /* SniffRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0836901D43145F00EF1C98 /* SniffRes.m */; };
+		8BE3B8A41D3DEE9D00D2F30C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B8A31D3DEE9D00D2F30C /* main.m */; };
+		8BE3B8A71D3DEE9D00D2F30C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B8A61D3DEE9D00D2F30C /* AppDelegate.m */; };
+		8BE3B8AA1D3DEE9D00D2F30C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3B8A91D3DEE9D00D2F30C /* ViewController.m */; };
+		8BE3B8AD1D3DEE9D00D2F30C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3B8AB1D3DEE9D00D2F30C /* Main.storyboard */; };
+		8BE3B8AF1D3DEE9D00D2F30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3B8AE1D3DEE9D00D2F30C /* Assets.xcassets */; };
+		8BE3B8B21D3DEE9D00D2F30C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3B8B01D3DEE9D00D2F30C /* LaunchScreen.storyboard */; };
+		8BE3B8FE1D3DF47300D2F30C /* LANConnectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF3558E1D3606CD0099FB82 /* LANConnectLib.framework */; };
+		8BE3B91D1D3E225B00D2F30C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE3B91C1D3E225B00D2F30C /* CFNetwork.framework */; };
+		8BF11F8A1D45ABB4000E1864 /* SeqIdGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF11F881D45ABB4000E1864 /* SeqIdGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF11F8B1D45ABB4000E1864 /* SeqIdGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF11F891D45ABB4000E1864 /* SeqIdGenerator.m */; };
+		8BF11F8E1D45E5ED000E1864 /* LocalIPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF11F8C1D45E5ED000E1864 /* LocalIPUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF11F8F1D45E5ED000E1864 /* LocalIPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF11F8D1D45E5ED000E1864 /* LocalIPUtils.m */; };
+		8BF11F931D45F0F0000E1864 /* SnifferManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF11F911D45F0F0000E1864 /* SnifferManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF11F941D45F0F0000E1864 /* SnifferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF11F921D45F0F0000E1864 /* SnifferManager.m */; };
+		8BF11F971D45F115000E1864 /* TCPServerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF11F951D45F115000E1864 /* TCPServerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF11F981D45F115000E1864 /* TCPServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF11F961D45F115000E1864 /* TCPServerManager.m */; };
+		8BF11F9B1D45F127000E1864 /* UDPServerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF11F991D45F127000E1864 /* UDPServerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF11F9C1D45F127000E1864 /* UDPServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF11F9A1D45F127000E1864 /* UDPServerManager.m */; };
+		8BF11F9F1D462D1E000E1864 /* AppActiveStateBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF11F9D1D462D1E000E1864 /* AppActiveStateBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF11FA01D462D1E000E1864 /* AppActiveStateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF11F9E1D462D1E000E1864 /* AppActiveStateBase.m */; };
 		8BF355921D3606CD0099FB82 /* LANConnectLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF355911D3606CD0099FB82 /* LANConnectLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF355F41D365A510099FB82 /* PackageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF355F21D365A510099FB82 /* PackageUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF355F51D365A510099FB82 /* PackageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF355F31D365A510099FB82 /* PackageUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B0835C51D40AD6F00EF1C98 /* ByteBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteBuffer.h; sourceTree = "<group>"; };
+		8B0835C61D40AD6F00EF1C98 /* ByteBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByteBuffer.m; sourceTree = "<group>"; };
+		8B0835CA1D40B73000EF1C98 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		8B0835CB1D40B73000EF1C98 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		8B0835D61D41BE3800EF1C98 /* TCPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPClient.h; sourceTree = "<group>"; };
+		8B0835D71D41BE3800EF1C98 /* TCPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPClient.m; sourceTree = "<group>"; };
+		8B0835D81D41BE3800EF1C98 /* TCPDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPDataDelegate.h; sourceTree = "<group>"; };
+		8B0835DA1D41BE3800EF1C98 /* UDPReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPReceiver.h; sourceTree = "<group>"; };
+		8B0835DB1D41BE3800EF1C98 /* UDPReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPReceiver.m; sourceTree = "<group>"; };
+		8B0835DC1D41BE3800EF1C98 /* UDPSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPSender.h; sourceTree = "<group>"; };
+		8B0835DD1D41BE3800EF1C98 /* UDPSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPSender.m; sourceTree = "<group>"; };
+		8B0835E81D41E08E00EF1C98 /* TCPSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPSection.h; sourceTree = "<group>"; };
+		8B0835E91D41E08E00EF1C98 /* TCPSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPSection.m; sourceTree = "<group>"; };
+		8B0835EA1D41E08E00EF1C98 /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		8B0835EB1D41E08E00EF1C98 /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
+		8B0835F01D41E50000EF1C98 /* TCPAcceptSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPAcceptSection.h; sourceTree = "<group>"; };
+		8B0835F11D41E50000EF1C98 /* TCPAcceptSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPAcceptSection.m; sourceTree = "<group>"; };
+		8B08360A1D4221E700EF1C98 /* SniffReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SniffReq.h; sourceTree = "<group>"; };
+		8B08360B1D4221E700EF1C98 /* SniffReq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SniffReq.m; sourceTree = "<group>"; };
+		8B08360C1D4221E700EF1C98 /* Terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terminal.h; sourceTree = "<group>"; };
+		8B08360D1D4221E700EF1C98 /* Terminal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Terminal.m; sourceTree = "<group>"; };
+		8B0836121D42224000EF1C98 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = LANConnectLib/Protocol/Defines.h; sourceTree = SOURCE_ROOT; };
+		8B08368F1D43145F00EF1C98 /* SniffRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SniffRes.h; path = LANConnectLib/Protocol/Sniffer/SniffRes.h; sourceTree = SOURCE_ROOT; };
+		8B0836901D43145F00EF1C98 /* SniffRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SniffRes.m; path = LANConnectLib/Protocol/Sniffer/SniffRes.m; sourceTree = SOURCE_ROOT; };
+		8BE3B8A01D3DEE9D00D2F30C /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE3B8A31D3DEE9D00D2F30C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BE3B8A51D3DEE9D00D2F30C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BE3B8A61D3DEE9D00D2F30C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BE3B8A81D3DEE9D00D2F30C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BE3B8A91D3DEE9D00D2F30C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BE3B8AC1D3DEE9D00D2F30C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BE3B8AE1D3DEE9D00D2F30C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BE3B8B11D3DEE9D00D2F30C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BE3B8B31D3DEE9D00D2F30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE3B91C1D3E225B00D2F30C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8BF11F881D45ABB4000E1864 /* SeqIdGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeqIdGenerator.h; sourceTree = "<group>"; };
+		8BF11F891D45ABB4000E1864 /* SeqIdGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeqIdGenerator.m; sourceTree = "<group>"; };
+		8BF11F8C1D45E5ED000E1864 /* LocalIPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalIPUtils.h; sourceTree = "<group>"; };
+		8BF11F8D1D45E5ED000E1864 /* LocalIPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalIPUtils.m; sourceTree = "<group>"; };
+		8BF11F911D45F0F0000E1864 /* SnifferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnifferManager.h; sourceTree = "<group>"; };
+		8BF11F921D45F0F0000E1864 /* SnifferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnifferManager.m; sourceTree = "<group>"; };
+		8BF11F951D45F115000E1864 /* TCPServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServerManager.h; sourceTree = "<group>"; };
+		8BF11F961D45F115000E1864 /* TCPServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServerManager.m; sourceTree = "<group>"; };
+		8BF11F991D45F127000E1864 /* UDPServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPServerManager.h; sourceTree = "<group>"; };
+		8BF11F9A1D45F127000E1864 /* UDPServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPServerManager.m; sourceTree = "<group>"; };
+		8BF11F9D1D462D1E000E1864 /* AppActiveStateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppActiveStateBase.h; sourceTree = "<group>"; };
+		8BF11F9E1D462D1E000E1864 /* AppActiveStateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppActiveStateBase.m; sourceTree = "<group>"; };
 		8BF3558E1D3606CD0099FB82 /* LANConnectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LANConnectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF355911D3606CD0099FB82 /* LANConnectLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LANConnectLib.h; sourceTree = "<group>"; };
 		8BF355931D3606CD0099FB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF355F21D365A510099FB82 /* PackageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageUtil.h; sourceTree = "<group>"; };
+		8BF355F31D365A510099FB82 /* PackageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8BE3B89D1D3DEE9D00D2F30C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE3B91D1D3E225B00D2F30C /* CFNetwork.framework in Frameworks */,
+				8BE3B8FE1D3DF47300D2F30C /* LANConnectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BF3558A1D3606CD0099FB82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -27,11 +131,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0835D51D41BE3800EF1C98 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				8B0835F01D41E50000EF1C98 /* TCPAcceptSection.h */,
+				8B0835F11D41E50000EF1C98 /* TCPAcceptSection.m */,
+				8B0835D61D41BE3800EF1C98 /* TCPClient.h */,
+				8B0835D71D41BE3800EF1C98 /* TCPClient.m */,
+				8B0835D81D41BE3800EF1C98 /* TCPDataDelegate.h */,
+				8B0835E81D41E08E00EF1C98 /* TCPSection.h */,
+				8B0835E91D41E08E00EF1C98 /* TCPSection.m */,
+				8B0835EA1D41E08E00EF1C98 /* TCPServer.h */,
+				8B0835EB1D41E08E00EF1C98 /* TCPServer.m */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		8B0835D91D41BE3800EF1C98 /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				8B0835DA1D41BE3800EF1C98 /* UDPReceiver.h */,
+				8B0835DB1D41BE3800EF1C98 /* UDPReceiver.m */,
+				8B0835DC1D41BE3800EF1C98 /* UDPSender.h */,
+				8B0835DD1D41BE3800EF1C98 /* UDPSender.m */,
+			);
+			path = UDP;
+			sourceTree = "<group>";
+		};
+		8B0836081D4221E700EF1C98 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8B0836091D4221E700EF1C98 /* Sniffer */,
+				8B0836121D42224000EF1C98 /* Defines.h */,
+			);
+			name = Protocol;
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		8B0836091D4221E700EF1C98 /* Sniffer */ = {
+			isa = PBXGroup;
+			children = (
+				8B08360A1D4221E700EF1C98 /* SniffReq.h */,
+				8B08360B1D4221E700EF1C98 /* SniffReq.m */,
+				8B08360C1D4221E700EF1C98 /* Terminal.h */,
+				8B08360D1D4221E700EF1C98 /* Terminal.m */,
+				8B08368F1D43145F00EF1C98 /* SniffRes.h */,
+				8B0836901D43145F00EF1C98 /* SniffRes.m */,
+			);
+			name = Sniffer;
+			path = sniffer;
+			sourceTree = "<group>";
+		};
+		8BE3B8A11D3DEE9D00D2F30C /* test */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B8A51D3DEE9D00D2F30C /* AppDelegate.h */,
+				8BE3B8A61D3DEE9D00D2F30C /* AppDelegate.m */,
+				8BE3B8A81D3DEE9D00D2F30C /* ViewController.h */,
+				8BE3B8A91D3DEE9D00D2F30C /* ViewController.m */,
+				8BE3B8AB1D3DEE9D00D2F30C /* Main.storyboard */,
+				8BE3B8AE1D3DEE9D00D2F30C /* Assets.xcassets */,
+				8BE3B8B01D3DEE9D00D2F30C /* LaunchScreen.storyboard */,
+				8BE3B8B31D3DEE9D00D2F30C /* Info.plist */,
+				8BE3B8A21D3DEE9D00D2F30C /* Supporting Files */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		8BE3B8A21D3DEE9D00D2F30C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3B8A31D3DEE9D00D2F30C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BF11F871D45AB38000E1864 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8BF11F881D45ABB4000E1864 /* SeqIdGenerator.h */,
+				8BF11F891D45ABB4000E1864 /* SeqIdGenerator.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8BF11F901D45F0F0000E1864 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8BF11F911D45F0F0000E1864 /* SnifferManager.h */,
+				8BF11F921D45F0F0000E1864 /* SnifferManager.m */,
+				8BF11F951D45F115000E1864 /* TCPServerManager.h */,
+				8BF11F961D45F115000E1864 /* TCPServerManager.m */,
+				8BF11F991D45F127000E1864 /* UDPServerManager.h */,
+				8BF11F9A1D45F127000E1864 /* UDPServerManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		8BF355841D3606CD0099FB82 = {
 			isa = PBXGroup;
 			children = (
+				8BE3B91C1D3E225B00D2F30C /* CFNetwork.framework */,
 				8BF355901D3606CD0099FB82 /* LANConnectLib */,
 				8BF3558F1D3606CD0099FB82 /* Products */,
+				8BE3B8A11D3DEE9D00D2F30C /* test */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				8BF3558E1D3606CD0099FB82 /* LANConnectLib.framework */,
+				8BE3B8A01D3DEE9D00D2F30C /* test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +250,42 @@
 		8BF355901D3606CD0099FB82 /* LANConnectLib */ = {
 			isa = PBXGroup;
 			children = (
-				8BF355911D3606CD0099FB82 /* LANConnectLib.h */,
+				8BF11F901D45F0F0000E1864 /* Managers */,
+				8BF11F871D45AB38000E1864 /* Utils */,
+				8B0836081D4221E700EF1C98 /* Protocol */,
+				8B0835CA1D40B73000EF1C98 /* Config.h */,
+				8B0835CB1D40B73000EF1C98 /* Config.m */,
 				8BF355931D3606CD0099FB82 /* Info.plist */,
+				8BF356071D3757520099FB82 /* IP */,
+				8BF355911D3606CD0099FB82 /* LANConnectLib.h */,
+				8BF355F11D365A350099FB82 /* Package */,
 			);
 			path = LANConnectLib;
+			sourceTree = "<group>";
+		};
+		8BF355F11D365A350099FB82 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				8B0835C51D40AD6F00EF1C98 /* ByteBuffer.h */,
+				8B0835C61D40AD6F00EF1C98 /* ByteBuffer.m */,
+				8BF355F21D365A510099FB82 /* PackageUtil.h */,
+				8BF355F31D365A510099FB82 /* PackageUtil.m */,
+			);
+			name = Package;
+			path = package;
+			sourceTree = "<group>";
+		};
+		8BF356071D3757520099FB82 /* IP */ = {
+			isa = PBXGroup;
+			children = (
+				8B0835D51D41BE3800EF1C98 /* TCP */,
+				8B0835D91D41BE3800EF1C98 /* UDP */,
+				8BF11F8C1D45E5ED000E1864 /* LocalIPUtils.h */,
+				8BF11F8D1D45E5ED000E1864 /* LocalIPUtils.m */,
+				8BF11F9D1D462D1E000E1864 /* AppActiveStateBase.h */,
+				8BF11F9E1D462D1E000E1864 /* AppActiveStateBase.m */,
+			);
+			path = IP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +295,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0835E11D41BE3800EF1C98 /* UDPReceiver.h in Headers */,
+				8B0835DE1D41BE3800EF1C98 /* TCPClient.h in Headers */,
+				8B0835E31D41BE3800EF1C98 /* UDPSender.h in Headers */,
+				8B0835CC1D40B73000EF1C98 /* Config.h in Headers */,
+				8B0835C71D40AD6F00EF1C98 /* ByteBuffer.h in Headers */,
+				8B0835E01D41BE3800EF1C98 /* TCPDataDelegate.h in Headers */,
+				8B0835EC1D41E08E00EF1C98 /* TCPSection.h in Headers */,
+				8BF355F41D365A510099FB82 /* PackageUtil.h in Headers */,
+				8BF11F8E1D45E5ED000E1864 /* LocalIPUtils.h in Headers */,
+				8B0836141D42224000EF1C98 /* Defines.h in Headers */,
+				8B0835F21D41E50000EF1C98 /* TCPAcceptSection.h in Headers */,
+				8B0836911D43145F00EF1C98 /* SniffRes.h in Headers */,
+				8B08360E1D4221E700EF1C98 /* SniffReq.h in Headers */,
+				8B0836101D4221E700EF1C98 /* Terminal.h in Headers */,
+				8B0835EE1D41E08E00EF1C98 /* TCPServer.h in Headers */,
+				8BF11F9B1D45F127000E1864 /* UDPServerManager.h in Headers */,
+				8BF11F971D45F115000E1864 /* TCPServerManager.h in Headers */,
+				8BF11F931D45F0F0000E1864 /* SnifferManager.h in Headers */,
+				8BF11F9F1D462D1E000E1864 /* AppActiveStateBase.h in Headers */,
+				8BF11F8A1D45ABB4000E1864 /* SeqIdGenerator.h in Headers */,
 				8BF355921D3606CD0099FB82 /* LANConnectLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +322,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8BE3B89F1D3DEE9D00D2F30C /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE3B8B41D3DEE9D00D2F30C /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				8BE3B89C1D3DEE9D00D2F30C /* Sources */,
+				8BE3B89D1D3DEE9D00D2F30C /* Frameworks */,
+				8BE3B89E1D3DEE9D00D2F30C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 8BE3B8A01D3DEE9D00D2F30C /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8BF3558D1D3606CD0099FB82 /* LANConnectLib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BF355961D3606CD0099FB82 /* Build configuration list for PBXNativeTarget "LANConnectLib" */;
@@ -93,6 +366,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = cn.ljj;
 				TargetAttributes = {
+					8BE3B89F1D3DEE9D00D2F30C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					8BF3558D1D3606CD0099FB82 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -104,6 +380,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8BF355841D3606CD0099FB82;
 			productRefGroup = 8BF3558F1D3606CD0099FB82 /* Products */;
@@ -111,11 +388,22 @@
 			projectRoot = "";
 			targets = (
 				8BF3558D1D3606CD0099FB82 /* LANConnectLib */,
+				8BE3B89F1D3DEE9D00D2F30C /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8BE3B89E1D3DEE9D00D2F30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE3B8B21D3DEE9D00D2F30C /* LaunchScreen.storyboard in Resources */,
+				8BE3B8AF1D3DEE9D00D2F30C /* Assets.xcassets in Resources */,
+				8BE3B8AD1D3DEE9D00D2F30C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BF3558C1D3606CD0099FB82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,16 +414,93 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8BE3B89C1D3DEE9D00D2F30C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE3B8AA1D3DEE9D00D2F30C /* ViewController.m in Sources */,
+				8BE3B8A71D3DEE9D00D2F30C /* AppDelegate.m in Sources */,
+				8BE3B8A41D3DEE9D00D2F30C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BF355891D3606CD0099FB82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B08360F1D4221E700EF1C98 /* SniffReq.m in Sources */,
+				8B0836111D4221E700EF1C98 /* Terminal.m in Sources */,
+				8BF355F51D365A510099FB82 /* PackageUtil.m in Sources */,
+				8BF11F941D45F0F0000E1864 /* SnifferManager.m in Sources */,
+				8B0836921D43145F00EF1C98 /* SniffRes.m in Sources */,
+				8B0835F31D41E50000EF1C98 /* TCPAcceptSection.m in Sources */,
+				8BF11F981D45F115000E1864 /* TCPServerManager.m in Sources */,
+				8B0835ED1D41E08E00EF1C98 /* TCPSection.m in Sources */,
+				8B0835E21D41BE3800EF1C98 /* UDPReceiver.m in Sources */,
+				8B0835EF1D41E08E00EF1C98 /* TCPServer.m in Sources */,
+				8B0835CD1D40B73000EF1C98 /* Config.m in Sources */,
+				8BF11F8B1D45ABB4000E1864 /* SeqIdGenerator.m in Sources */,
+				8B0835DF1D41BE3800EF1C98 /* TCPClient.m in Sources */,
+				8BF11F9C1D45F127000E1864 /* UDPServerManager.m in Sources */,
+				8B0835C81D40AD6F00EF1C98 /* ByteBuffer.m in Sources */,
+				8B0835E41D41BE3800EF1C98 /* UDPSender.m in Sources */,
+				8BF11FA01D462D1E000E1864 /* AppActiveStateBase.m in Sources */,
+				8BF11F8F1D45E5ED000E1864 /* LocalIPUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		8BE3B8AB1D3DEE9D00D2F30C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE3B8AC1D3DEE9D00D2F30C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BE3B8B01D3DEE9D00D2F30C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE3B8B11D3DEE9D00D2F30C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		8BE3B8B51D3DEE9D00D2F30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+				);
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ljj.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BE3B8B61D3DEE9D00D2F30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+				);
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ljj.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8BF355941D3606CD0099FB82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -229,13 +594,19 @@
 		8BF355971D3606CD0099FB82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LANConnectLib/frameworks",
+				);
 				INFOPLIST_FILE = LANConnectLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ljj.LANConnectLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -249,9 +620,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LANConnectLib/frameworks",
+				);
 				INFOPLIST_FILE = LANConnectLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ljj.LANConnectLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -261,6 +637,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8BE3B8B41D3DEE9D00D2F30C /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE3B8B51D3DEE9D00D2F30C /* Debug */,
+				8BE3B8B61D3DEE9D00D2F30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8BF355881D3606CD0099FB82 /* Build configuration list for PBXProject "LANConnectLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -277,6 +662,7 @@
 				8BF355981D3606CD0099FB82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

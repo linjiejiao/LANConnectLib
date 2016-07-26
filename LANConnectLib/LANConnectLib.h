@@ -6,7 +6,21 @@
 //  Copyright © 2016年 cn.ljj. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UDPSender.h"
+#import "UDPReceiver.h"
+#import "ByteBuffer.h"
+#import "PackageUtil.h"
+#import "TCPClient.h"
+#import "TCPSection.h"
+#import "TCPDataDelegate.h"
+#import "TCPAcceptSection.h"
+#import "Config.h"
+#import "TCPServer.h"
+#import "LocalIPUtils.h"
+#import "Defines.h"
+#import "SnifferManager.h"
+
 
 //! Project version number for LANConnectLib.
 FOUNDATION_EXPORT double LANConnectLibVersionNumber;
